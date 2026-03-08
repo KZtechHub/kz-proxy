@@ -1,0 +1,26 @@
+{
+  "name": "kz-proxy-server",
+  "version": "1.0.0",
+  "description": "Kriptomech AI Gateway — Secure Anthropic API proxy for Claude-powered artifacts",
+  "author": "Kriptomech",
+  "license": "MIT",
+  "type": "module",
+  "main": "kz-proxy-server.js",
+  "engines": { "node": ">=18.0.0" },
+  "scripts": {
+    "start": "node kz-proxy-server.js",
+    "dev": "node --watch kz-proxy-server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": ["kriptomech","anthropic","claude","proxy","nigeria"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kriptomech/kz-proxy-server.git"
+  }
+}
